@@ -1,0 +1,37 @@
+.container {
+  background-color: grey;
+  width: 1000px;
+  margin: auto;
+}
+
+nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menuOne {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menuTwo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menuThree {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menuFour {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer {
+  background-color: white;
+  padding-top: 30px;
+}
