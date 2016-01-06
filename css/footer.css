@@ -1,0 +1,33 @@
+footer {
+  background-color: #4D4D4D;
+  padding-top: 10px;
+}
+
+footer p {
+  background-color: #84B446;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer h3 {
+  color: #84B446;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.conteneurFooter {
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  font-style: italic;
+  text-decoration: underline;
+}

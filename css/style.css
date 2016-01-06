@@ -1,37 +1,35 @@
+@import url(header.css);
+@import url(menuOne.css);
+@import url(menuTwo.css);
+@import url(menuThree.css);
+@import url(menuFour.css);
+@import url(footer.css);
+
 .container {
-  background-color: grey;
-  width: 1000px;
+  background-color: white;
+  width: 90%;
   margin: auto;
 }
 
-nav {
+.padded {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.menuOne {
-  background-color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.text-center {
+  text-align: center;
 }
 
-.menuTwo {
-  padding-top: 10px;
-  padding-bottom: 10px;
+h2 {
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.menuThree {
-  background-color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
+h3 {
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.menuFour {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 
-footer {
-  background-color: white;
-  padding-top: 30px;
-}
