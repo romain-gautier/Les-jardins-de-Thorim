@@ -11,4 +11,11 @@
 
 .colorThunder {
   background-color: #4D4D4D;
+  color: white;
 }
+
+.conteneurThreeOne {
+  display: flex;
+  justify-content: space-around;
+}
+

@@ -31,3 +31,18 @@ footer a:hover {
   font-style: italic;
   text-decoration: underline;
 }
+
+.mitra {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.bantuan {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.tentang {
+  padding-left: 3%;
+  padding-right: 3%;
+}

@@ -1,3 +1,26 @@
 .menuTwo {
   background-color: #F5F5F5;
 }
+
+.MenuTwoBgOne {
+  width: 32%;
+  background-color: #77B648;
+}
+
+.MenuTwoBgTwo {
+  width: 32%;
+  background-color: #77B648;
+}
+
+.MenuTwoBgThree {
+  width: 32%;
+  background-color: #77B648;
+}
+
+.conteneurTwo {
+  display: flex;
+  justify-content: space-around;
+  background-color: #4D4D4D;
+  padding-left: 5%;
+  padding-right: 5%;
+}
