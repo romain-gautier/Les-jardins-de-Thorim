@@ -7,6 +7,8 @@
   padding: 60px;
   padding-top: 50px;
   padding-bottom: 50px;
+  padding-left: 5%;
+  padding-right: 5%
 }
 
 .colorThunder {
@@ -17,5 +19,61 @@
 .conteneurThreeOne {
   display: flex;
   justify-content: space-around;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
+.conteneurThreeThree {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.profilOne {
+  background-color: #F5F5F5;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.profilTwo {
+  background-color: #F5F5F5;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.profilThree {
+  background-color: #F5F5F5;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.profilFour {
+  background-color: #F5F5F5;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.sectionThreePhotoOne {
+  background-color: #F5F5F5;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.sectionThreePhotoTwo {
+  background-color: #F5F5F5;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.sectionThreePhotoThree {
+  background-color: #F5F5F5;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.sectionThreePhotoFour {
+  background-color: #F5F5F5;
+  padding-left: 2%;
+  padding-right: 2%;
+}
