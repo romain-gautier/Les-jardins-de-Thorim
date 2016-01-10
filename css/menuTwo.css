@@ -19,7 +19,7 @@
 
 .conteneurTwo {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #4D4D4D;
   padding-left: 5%;
   padding-right: 5%;

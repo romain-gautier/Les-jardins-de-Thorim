@@ -8,7 +8,8 @@
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 5%;
-  padding-right: 5%
+  padding-right: 5%;
+  text-align: justify;
 }
 
 .colorThunder {
@@ -18,14 +19,14 @@
 
 .conteneurThreeOne {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-left: 5%;
   padding-right: 5%;
 }
 
 .conteneurThreeThree {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -56,7 +57,6 @@
 
 .sectionThreePhotoOne {
   background-color: #F5F5F5;
-  padding-left: 2%;
   padding-right: 2%;
 }
 
@@ -91,9 +91,12 @@
 }
 
 .SectionThreeTestimoni {
-  width: 60%;
+  width: 70%;
   background-color: #F5F5F5;
   text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .SectionThreeTestimoni p {
