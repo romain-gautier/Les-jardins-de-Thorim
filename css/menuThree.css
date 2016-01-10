@@ -77,3 +77,30 @@
   padding-left: 2%;
   padding-right: 2%;
 }
+
+.conteneurThreeTwo {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.sectionThreeTwoProfil {
+  width: 20%;
+  background-color: #F5F5F5;
+}
+
+.SectionThreeTestimoni {
+  width: 60%;
+  background-color: #F5F5F5;
+  text-align: justify;
+}
+
+.SectionThreeTestimoni p {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.portraitProfil {
+  border-radius: 50%;
+}
