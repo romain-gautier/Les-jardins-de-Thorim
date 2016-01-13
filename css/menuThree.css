@@ -24,6 +24,11 @@
   padding-right: 5%;
 }
 
+.conteneurThreeOne img {
+  width: 225px;
+  height: 150px;
+}
+
 .conteneurThreeThree {
   display: flex;
   justify-content: space-between;
@@ -31,51 +36,65 @@
   padding-right: 5%;
 }
 
+.conteneurThreeThree img {
+  width: 225px;
+  height: 150px;
+}
+
 .profilOne {
   background-color: #F5F5F5;
   padding-left: 2%;
   padding-right: 2%;
+  width: 20%;
 }
 
 .profilTwo {
   background-color: #F5F5F5;
   padding-left: 2%;
   padding-right: 2%;
+  width: 20%;
 }
 
 .profilThree {
   background-color: #F5F5F5;
   padding-left: 2%;
   padding-right: 2%;
+  width: 20%;
 }
 
 .profilFour {
   background-color: #F5F5F5;
   padding-left: 2%;
   padding-right: 2%;
+  width: 20%;
 }
 
 .sectionThreePhotoOne {
   background-color: #F5F5F5;
+  padding-left: 2%;
   padding-right: 2%;
+  width: 20%;
 }
 
 .sectionThreePhotoTwo {
   background-color: #F5F5F5;
   padding-left: 2%;
   padding-right: 2%;
+  width: 20%;
 }
 
 .sectionThreePhotoThree {
   background-color: #F5F5F5;
   padding-left: 2%;
   padding-right: 2%;
+  width: 20%;
 }
 
 .sectionThreePhotoFour {
   background-color: #F5F5F5;
   padding-left: 2%;
   padding-right: 2%;
+  width: 20%;
 }
 
 .conteneurThreeTwo {
@@ -85,13 +104,18 @@
   padding-right: 5%;
 }
 
+.conteneurThreeTwo img {
+  width: 150px;
+}
+
 .sectionThreeTwoProfil {
-  width: 20%;
+  width: 24%;
   background-color: #F5F5F5;
+  padding-top: 15px;
 }
 
 .SectionThreeTestimoni {
-  width: 72%;
+  width: 75%;
   background-color: #F5F5F5;
   text-align: justify;
   display: flex;

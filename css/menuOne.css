@@ -9,6 +9,10 @@
   text-align: justify;
 }
 
+.menuOne img {
+  width: 535px;
+}
+
 .conteneurOne {
   display: flex;
   justify-content: space-between;

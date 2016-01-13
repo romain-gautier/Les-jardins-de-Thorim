@@ -2,18 +2,23 @@
   background-color: #F5F5F5;
 }
 
+.menuTwo img {
+  width: 320px;
+  height: 250px;
+}
+
 .MenuTwoBgOne {
-  width: 32%;
+  width: 32.5%;
   background-color: #77B648;
 }
 
 .MenuTwoBgTwo {
-  width: 32%;
+  width: 32.5%;
   background-color: #77B648;
 }
 
 .MenuTwoBgThree {
-  width: 32%;
+  width: 32.5%;
   background-color: #77B648;
 }
 

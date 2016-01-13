@@ -7,21 +7,43 @@
   color: white;
 }
 
-.conteuneurFour {
-  display: flex;
-  justify-content: space-between;
+.menuFour i {
+  color: white;
 }
 
+/* .menuFour li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 5%;
+  margin-left: 20%;
+  float: right;
+  padding-bottom: 100px;
+}
+
+.menuFour li:first-child {
+  float: left;
+  margin-left: -3%;
+} */
+
 .adresse {
-  width: 20%;
-  display: flex;
-  justify-content: flex-start;
   padding-left: 5%;
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .formulaire {
-  width: 70%;
-  display: flex;
-  justify-content: flex-end;
+  padding-right: 5%;
+  width: 65%;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  text-align: center;
 }
+
+.formulaire label {
+  width: 150px;
+}
+
+
 
