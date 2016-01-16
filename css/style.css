@@ -1,9 +1,11 @@
-@import url(header.css);
+/* @import url(header.css);
 @import url(menuOne.css);
 @import url(menuTwo.css);
 @import url(menuThree.css);
 @import url(menuFour.css);
-@import url(footer.css);
+@import url(footer.css); */
+
+/* BODY */
 
 .container {
   background-color: white;
@@ -37,4 +39,357 @@ h3 {
 body {
   font-family: "Open Sans";
 }
+
+/* HEADER */
+
+/* Navigation */
+
+nav {
+  background-color: #55644D;
+  display: flex;
+  align-items: center;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 40%;
+
+}
+
+nav img {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
+nav li
+{
+    margin-right: 25px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+
+
+/* MENU ONE */
+
+.menuOne {
+  background-color: white;
+
+}
+
+.menuOne p {
+  padding-right: 5%;
+  padding-left: 5%;
+  text-align: justify;
+}
+
+.menuOne img {
+  width: 535px;
+}
+
+.conteneurOne {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* MENU TWO */
+
+.menuTwo {
+  background-color: #F5F5F5;
+}
+
+.menuTwo img {
+  width: 320px;
+  height: 250px;
+}
+
+.MenuTwoBgOne {
+  width: 32.5%;
+  background-color: #77B648;
+}
+
+.MenuTwoBgTwo {
+  width: 32.5%;
+  background-color: #77B648;
+}
+
+.MenuTwoBgThree {
+  width: 32.5%;
+  background-color: #77B648;
+}
+
+.conteneurTwo {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4D4D4D;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* MENU THREE */
+
+.menuThree {
+  background-color: white;
+}
+
+.pMenuThree {
+  background-color: #F5F5F5;
+  padding: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: justify;
+}
+
+.colorThunder {
+  background-color: #4D4D4D;
+  color: white;
+}
+
+.conteneurThreeOne {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.conteneurThreeOne img {
+  width: 225px;
+  height: 150px;
+}
+
+.conteneurThreeThree {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.conteneurThreeThree img {
+  width: 225px;
+  height: 150px;
+}
+
+.profilOne {
+  background-color: #F5F5F5;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 20%;
+}
+
+.profilTwo {
+  background-color: #F5F5F5;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 20%;
+}
+
+.profilThree {
+  background-color: #F5F5F5;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 20%;
+}
+
+.profilFour {
+  background-color: #F5F5F5;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 20%;
+}
+
+.sectionThreePhotoOne {
+  background-color: #F5F5F5;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 20%;
+}
+
+.sectionThreePhotoTwo {
+  background-color: #F5F5F5;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 20%;
+}
+
+.sectionThreePhotoThree {
+  background-color: #F5F5F5;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 20%;
+}
+
+.sectionThreePhotoFour {
+  background-color: #F5F5F5;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 20%;
+}
+
+.conteneurThreeTwo {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.conteneurThreeTwo img {
+  width: 150px;
+}
+
+.sectionThreeTwoProfil {
+  width: 24%;
+  background-color: #F5F5F5;
+  padding-top: 15px;
+}
+
+.SectionThreeTestimoni {
+  width: 75%;
+  background-color: #F5F5F5;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SectionThreeTestimoni p {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.portraitProfil {
+  border-radius: 50%;
+}
+
+a {
+  color: black;
+}
+
+a :hover {
+  text-decoration: underline;
+  color: white;
+}
+
+/* MENU FOUR */
+
+.menuFour {
+  background-color: white;
+}
+
+.menuFour h2 {
+  background-color: #77B648;
+  color: white;
+}
+
+.menuFour i {
+  color: white;
+}
+
+/* .menuFour li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 5%;
+  margin-left: 20%;
+  float: right;
+  padding-bottom: 100px;
+}
+
+.menuFour li:first-child {
+  float: left;
+  margin-left: -3%;
+} */
+
+.adresse {
+  padding-left: 5%;
+  width: 15%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.formulaire {
+  width: 75%;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #4D4D4D;
+  padding-top: 10px;
+}
+
+footer p {
+  background-color: #84B446;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer h3 {
+  color: #84B446;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.conteneurFooter {
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.mitra {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.bantuan {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.tentang {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+
+
 
