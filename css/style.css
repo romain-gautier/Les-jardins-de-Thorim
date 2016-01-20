@@ -335,7 +335,12 @@ a :hover {
   width: 65%;
   display: inline-block;
   vertical-align: top;
+}
 
+.name, .email, .website {
+  width: 22%;
+  display: inline-block;
+  vertical-align: top;
 }
 
 input[type=submit] {

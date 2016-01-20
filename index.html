@@ -210,10 +210,17 @@
             <div class="formulaire">
               <p><strong>N'hésitez pas à nous laisser un message :</strong><p>
               <form>
-                <label for="name">Full name</label><input type="text" name="name" id="name" placeholder="your name" />
-                <label for="email">E-mail</label><input type="email" name="email" id="email" placeholder="your email" />
-                <label for="website">Website</label><input type="text" name="website" id="website" placeholder="your website"> <br />
-                <label for="message">Message<br /></label><textarea name="message" id="message" placeholder="your message"></textarea> <br />
+                <div class="name">
+                  <label for="name">Full name</label><input type="text" name="name" id="name" placeholder="your name" />
+                </div>
+                <div class="email">
+                  <label for="email">E-mail</label><input type="email" name="email" id="email" placeholder="your email" />
+                </div>
+                <div class="website">
+                  <label for="website">Website</label><input type="text" name="website" id="website" placeholder="your website">
+                </div>
+                <br />
+                <label for="message">Message</label><br /><textarea name="message" id="message" placeholder="your message"></textarea> <br />
                 <input type="submit" value="Submit">
               </form>
             </div>
